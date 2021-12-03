@@ -1,0 +1,431 @@
+body{
+    min-width: 1420px;
+    background-color: rgb(240, 234, 234);
+}
+/* .w{
+    display: inline-block;
+} */
+.header div{
+    height: 50px;
+    text-align: center;
+    display: inline-block;
+    
+}
+.logo{
+    position: relative;
+    top: 15px;
+    width: 10%;
+    height: 100%;
+}
+.nav{
+    width: 50%;
+}
+.search{
+    width: 28%;
+}
+.user{
+    width: 10%;
+}
+.banner{
+    height: 500px;
+}
+.banner > div{
+    display: inline-block;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-width: 1420px;
+    z-index: -10;
+    /* 背景图片设置 */
+    background-image: url(../Img/没睡醒.png);
+    zoom: 1;
+    background-color: #ffff;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    opacity: 0.8;
+}
+.subnav{
+    /* display: inline-block; */
+    width: 10%;
+    height: 500px;
+    float: left;
+    background-color: rgb(83, 82, 82);
+    opacity: 0.8;
+}
+.subnav ul li{
+    text-align: left;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+.subnav ul li a{
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    right: 40px;
+}
+.subnav ul li span{
+    position: relative;
+    left: 60px;
+    color: white;
+}
+div.course{
+    /* display: block; */
+    text-align: center;
+    float: right;
+    /* right: 50%;
+    top: 50%; */
+    height: 310px;
+    background-color: rgb(255, 255, 255);
+    opacity: 1;
+    position: relative;
+    /* top: 10px; */
+    right: 100px;
+    width: 220px;
+    top: 100px;
+}
+.course > h2{
+    position: relative;
+    top: -20px;
+    background-color: rgb(155, 214, 241);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    float: initial;
+}
+/* .course > h4{
+    text-align: center;
+} */
+
+/* 查看边界 */
+/* .logo::before{
+    content: 'abc';
+    color: red;
+}
+.logo::after{
+    content: 'abc';
+    color: red;
+}
+.nav::after{
+    content: 'A';
+    color: red;
+}
+.nav::before{
+    content: 'A';
+    color: red;
+}
+.search::before{
+    content: 'B';
+    color: red;
+}
+.search::after{
+    content: 'B';
+    color: red;
+}
+.user::after{
+    content: 'C';
+    color: red;
+}
+.user::before{
+    content: 'C';
+    color: red;
+} */
+
+/* 以上为查看边界部分 */
+
+
+.logo img{
+    /* position: relative; */
+    /* top: 10px; */
+    /* right: 30px; */
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    display: inline-block;
+}
+.nav ul{
+    list-style-type: none;
+    width: 80%;
+    display: inline-block;
+}
+.nav li{
+    list-style-type: none;
+    width: 25%;
+    display: inline-block;
+}
+.nav ul li a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.search{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+}
+.search #Sou_Suo{
+    color: rgb(214, 212, 205);
+}
+.search button{
+    position: relative;
+    /* background-color: white; */
+    border: none;
+    color: rgb(238, 127, 127);
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 6px;
+    margin: 6px 2px;
+    cursor: pointer;
+    top: -1px;
+    border: 1px solid rgb(116, 194, 218);
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.search button:hover{
+    color: rgb(228, 238, 241);
+    background-color: rgb(141, 218, 214);
+}
+.user img{
+    text-align: center;
+    display: inline-block;
+}
+.user h4{
+    text-align: center;
+    display: inline-block;
+}
+.bd{
+    text-align: center;
+}
+.bd a{
+    text-decoration: none;
+}
+.bd ul li{
+    list-style-type: none;
+    text-decoration: none;
+}
+/* .bd ul li h4{
+    position: relative;
+    right: 34px;
+}
+.bd ul li p{
+    position: relative;
+    right: 46px;
+} */
+
+/* 链接方面 */
+.nav ul li a:hover{
+    color: orange;
+}
+.nav ul li a:active{
+    color: aqua;
+}
+.subnav ul li a:hover{
+    color: aqua;
+}
+.subnav ul li span:hover{
+    color: aqua;
+}
+.bd a:hover{
+    color: aqua;
+}
+
+
+/* 边框方面 */
+.nav ul li{
+    border: aqua;
+    /* border-style:dotted; */
+    border-width: 2px;
+}
+/* .logo{
+    border-width: 01px;
+    border-style: solid;
+    border-color: aquamarine;
+} */
+.bd ul li h4{
+    text-align: right;
+    position: relative;
+    right: 32px;
+    top: -20px;
+}
+.bd ul li p{
+    text-align: center;
+    position: relative;
+    right: 30px;
+    top: -40px;
+    border-bottom: 2px solid thistle;
+    font-size: 10px;
+}
+.bd a{
+    color: black;
+    font-size: 10px;
+    position: relative;
+    top: -44px;
+    width: 100px;
+    border: 1px solid turquoise;
+    padding: 8px;
+    margin: 0px;
+    /* border-width: 1px; */
+}
+
+
+
+
+/* goods 方面********************************** */
+.goods{
+    height: 150px;
+}
+.goods ul{
+    display: inline-block;
+    position: relative;
+    width: 1000px;
+    height: 150px;
+}
+.goods li{
+    display: inline-block;
+    position: relative;
+    width: 19%;
+    /* z-index: -10; */
+    padding: 0px;
+    margin: 0px;
+    top: -25px;
+    right: 40px;
+    height: 70%;
+}
+.goods li a{
+    width: 100%;
+    height: 100%;
+    /* 背景图片设置 */
+    background-image: url(../Img/不要.png);
+    zoom: 1;
+    /* background-repeat: no-repeat; */
+    /* background-position: center 0; */
+    background-size: cover;
+    /* -webkit-background-size: cover; */
+    /* -o-background-size: cover; */
+    opacity: 0.6;
+    text-align: center;
+}
+.mod{
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+    width: 100px;
+    left: 290px;
+}
+/* 链接 */
+.goods > a{
+    text-decoration: none;
+    color: rgb(42, 174, 218);
+}
+.goods li a{
+    text-decoration: none;
+    position: relative;
+    color: black;
+}
+.goods li a:hover{
+    color: hotpink;
+}
+.goods a:active{
+    color: coral;
+}
+/* 边框 */
+.goods{
+    border-bottom: 2px solid thistle;
+}
+/* box 方面 *********************************/
+.box-hd h3,a{
+    display: inline-block;
+}
+.box-hd h3{
+    position: relative;
+    width: 1100px;
+}
+.box-hd a{
+    position: relative;
+    text-decoration: none;
+    top: 10px;
+    font-size: 20px;
+    width: 100px;
+    left: 230px;
+    color: lightgreen;
+}
+.clearfix li{
+    background-color: rgb(252, 247, 247);
+    display: inline-block;
+    width: 280px;
+}
+.clearfix li img{
+    width: 280px;
+}
+.clearfix li h4{
+    font: 16px "宋体";
+}
+.info{
+    text-align: left;
+    font-size: 12px;
+    color: rgb(211, 198, 198);
+}
+.info span{
+    color: tomato;
+}
+
+
+/* footer 方面 *****************************/
+/* .copyright{
+    background-color: white;
+} */
+.copyright,.links{
+    height: 150px;
+    display: inline-block;
+}
+.links dl{
+    display: inline-block;
+}
+.copyright img{
+    position: relative;
+    width: 142px;
+    left: 48px;
+}
+.copyright p{
+    position: relative;
+    font-size: 6px;
+    left: 48px;
+}
+.copyright a{
+    color: rgb(73, 160, 189);
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    width: 100px;
+    border: 1px solid turquoise;
+    padding: 8px;
+    margin: 0px;
+    left: 48px;
+}
+.links{
+    position: relative;
+    left: 700px;
+    text-align: left;
+}
+.links a{
+    position: relative;
+    text-decoration: none;
+    right: 40px;
+    top: 10px;
+    color: black;
+    font-size: 4px;
+}
+.links a:hover{
+    color: coral;
+}
+.links a:active{
+    color: purple;
+}
